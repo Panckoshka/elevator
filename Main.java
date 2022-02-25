@@ -13,8 +13,6 @@ public class Main {
         Queue<Integer> elevator = new ArrayDeque<>();
         int previousFloor = -1;
 
-        // floor 1 2 2
-
         while (2 * 2 == 4) {
             System.out.println("Ожидаю ввода этажа: (для завершения введите 0)");
             int floor = scanner.nextInt();
